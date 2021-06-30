@@ -1,0 +1,59 @@
+.cardone_container {
+    width: 303px;
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
+    /* background-color: #011e40;
+    color: #fff; */
+}
+
+
+/* .general_container:hover {
+    width: 100%;
+    transition: all .4s ease 0s;
+} */
+
+.cardone_image {
+    position: relative;
+    z-index: 2;
+}
+
+.cardone_image::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(241, 196, 15, .95);
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all .4s ease 0s;
+}
+
+.cardone_container:hover .cardone_image::before {
+    width: 100%;
+    transition: all .4s ease 0s;
+}
+
+.cardone_image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.readmore-button {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    z-index: 4;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.cardone_container:hover .readmore-button {
+    visibility: visible;
+    opacity: 1;
+    transition: all .4s ease 0s;
+}
