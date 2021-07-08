@@ -54,6 +54,9 @@
         line-height: 35px;
         /* border-bottom: 3px dotted #; */
     }
+    ul {
+        line-height: 30px;
+    }
     .welcome_image {
         width: 100%;
         text-align: center;
@@ -380,5 +383,34 @@
         color: #f1c40f;
         /* color: #111; */
         font-weight: bolder;
+    }
+    .ielts_blog {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 14px;
+    }
+    .ielts_content_1 {
+        padding: 30px 2px 0px 10px;
+        line-height: 13px;
+    }
+    .blog_blog_content {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .other_article {
+        width: 100%;
+    }
+    .ielts_content_three {
+        display: block;
+    }
+    .eee {
+        padding: 30px 5px 0px 5px;
+        text-align: center;
+    }
+    .blog_blogs {
+        flex-direction: column;
+    }
+    .blog_blogs_image {
+        width: 100%;
     }
 }
