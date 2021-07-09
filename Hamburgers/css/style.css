@@ -1,19 +1,27 @@
 .hamburger {
     display: flex;
     justify-content: flex-end;
-    height: 30px;
-    background-color: #011e40;
+    height: 65px;
+    top: 6px;
+    margin-top: -65px;
+    right: 9px;
+    /* background-color: #011e40;*/
 }
 
 .general_contt {
     display: none;
+    /* position: fixed;
+    width: 103%;
+    top: 0em;
+    z-index: 7; */
 }
 
 .open {
     background-color: #f1c40f;
     width: 9%;
     height: 3px;
-    margin: 3px 0px 0px 0px;
+    z-index: 6;
+    margin: 20px 0px 0px 0px;
 }
 
 .open::before {
@@ -50,8 +58,9 @@
     /* background-color: #011e40; */
     margin-top: -30px;
     top: -17em;
-    right: 12px;
+    /* right: 12px; */
     position: relative;
+    z-index: 6;
 }
 
 .open2 {

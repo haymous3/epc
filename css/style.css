@@ -1,7 +1,10 @@
     .header_container {
         display: flex;
-        justify-content: space-around;
+        align-items: center;
         background-color: #011e40;
+        position: fixed;
+        z-index: 3;
+        width: 100%;
     }
     
     * {
@@ -26,6 +29,14 @@
         line-height: 34px;
     }
     
+    .logo {
+        width: fit-content;
+    }
+    
+    .logo img {
+        width: 20%;
+    }
+    
     .mycarousel h1 {
         color: #fff;
     }
@@ -42,7 +53,8 @@
         text-align: center;
         line-height: 37px;
         align-items: center;
-        padding-top: 116px;
+        padding-top: 0px;
+        padding-bottom: 39px;
     }
     
     .nav_items a {
@@ -84,7 +96,6 @@
         top: -14em;
         font-size: 44px;
         color: #fff;
-        /* margin-left: 30px; */
         margin-left: 4em;
         line-height: 68px;
     }
@@ -95,7 +106,6 @@
         font-size: 19px;
         width: 50%;
         color: #fff;
-        /* margin-left: 30px; */
         margin-left: 10em;
         line-height: 34px;
     }
@@ -116,6 +126,15 @@
     
     a {
         color: #f1c40f !important;
+    }
+    
+    .apply_1 {
+        position: relative;
+        top: 40px;
+    }
+    
+    .logo_image {
+        width: 55%;
     }
     
     .hero_btn {
@@ -249,7 +268,6 @@
         margin-top: 100px;
         padding-top: 125px;
     }
-    /* .payment h2 {} */
     
     .plan {
         margin-left: 2em;
@@ -276,7 +294,6 @@
     
     .plan_one {
         display: flex;
-        /* justify-content: space-around; */
         align-items: center;
         box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
         width: 48%;
@@ -299,7 +316,6 @@
     
     .planing_content {
         padding: 0px 24px;
-        /* color: #011e40; */
         line-height: 32px;
     }
     
@@ -307,17 +323,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         margin-top: 20px;
-        /* grid-gap: 20px; */
     }
     
     .gallery_images img {
-        width: 95%;
+        width: 100%;
     }
     
     .gallery {
         background-color: #f2f2f2;
         padding: 136px 21px 20px 21px;
-        /* line-height: 55px; */
     }
     
     .gallery h2 {
@@ -345,10 +359,6 @@
         line-height: 70px;
         border-bottom: 13px dotted #f1c40f;
     }
-    /* 
-.servicess {
-    padding: 136px 21px 20px 21px;
-} */
     
     .testimonial {
         color: #fff;
@@ -358,7 +368,6 @@
         font-size: 32px;
         margin-left: 2em;
         width: fit-content;
-        /* line-height: 70px; */
         border-bottom: 13px dotted #f1c40f;
     }
     
@@ -384,7 +393,6 @@
         font-size: 10px;
         position: relative;
         top: -64px;
-        /* left: -2px; */
         text-align: center;
     }
     
@@ -409,9 +417,7 @@
     }
     
     .news_plan {
-        /* display: flex; */
         align-items: center;
-        /* padding: 30px 40px; */
         position: relative;
         top: 110px;
     }
@@ -428,7 +434,6 @@
     
     .news_one {
         display: flex;
-        /* justify-content: space-around; */
         align-items: center;
         box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
         width: 80%;
@@ -626,8 +631,6 @@
     
     .about_hero p {
         color: #fff;
-        /* font-size: 31px;
-    padding: 138px 200px; */
     }
     
     .about_hero h3 {
@@ -772,7 +775,6 @@
     
     .ielts_blog {
         display: flex;
-        /* justify-content: space-around; */
         padding: 100px 120px;
     }
     
@@ -794,16 +796,6 @@
     .each_sections h3 {
         padding-top: 20px;
     }
-    /* 
-.ielts_content_2 {
-    padding: 30px 53px 0px 10px;
-    line-height: 32px;
-}
-
-.ielts_content_3 {
-    padding: 30px 53px 0px 10px;
-    line-height: 32px;
-} */
     
     .ielts_content_three {
         display: block;
@@ -895,12 +887,10 @@
     
     .blog_blogs {
         display: flex;
-        /* justify-content: space-around; */
         padding: 10px 0px;
         align-items: center;
         margin: 20px auto;
         width: 90%;
-        /* border: 1px solid #011e40; */
         border-radius: 5px;
         box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
     }
