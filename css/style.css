@@ -30,7 +30,7 @@
     
     .mycarousel {
         font-size: 16px;
-        color: #fff;
+        color: #000;
         position: relative;
         top: -19em;
         line-height: 34px;
@@ -44,8 +44,20 @@
         width: 20%;
     }
     
-    .mycarousel h1 {
-        color: #fff;
+    .mycarousel h2 {
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .mycarousel p {
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .my_image {
+        background-color: #000;
+        opacity: 0.8;
+        background-blend-mode: overlay;
     }
     
     .card_content h3 {
@@ -54,7 +66,7 @@
     
     .nav_items {
         color: #f1c40f;
-        background-color: #011e40;
+        background-color: #fff;
         height: 100%;
         width: 100%;
         text-align: center;
@@ -62,6 +74,7 @@
         align-items: center;
         padding-top: 0px;
         padding-bottom: 39px;
+        border-bottom: 1px solid #efefef;
     }
     
     .nav_items a {
@@ -158,12 +171,17 @@
         justify-content: space-around;
         align-items: center;
         margin-top: 2em;
+        background-color: #efefef;
     }
     
     .welcome_text {
         width: 50%;
         padding: 58px 50px;
         line-height: 24px;
+    }
+    
+    h2 {
+        font-weight: 500;
     }
     
     .welcome_text p {
@@ -175,7 +193,7 @@
     .welcome_text h2 {
         font-size: 33px;
         line-height: 62px;
-        border-bottom: 0.3em dashed #f1c40f;
+        border-bottom: 5px dashed #f1c40f;
         /* border-bottom: 1px d; */
     }
     
@@ -268,7 +286,7 @@
         font-size: 36px;
         width: fit-content;
         color: #fff;
-        border-bottom: 9px dashed #f1c40f;
+        border-bottom: 5px dashed #f1c40f;
         line-height: 53px;
     }
     
@@ -285,7 +303,7 @@
         color: #fff;
         width: fit-content;
         line-height: 70px;
-        border-bottom: 9px dashed #f1c40f;
+        border-bottom: 5px dashed #f1c40f;
     }
     
     .training {
@@ -322,6 +340,7 @@
     
     .servicess {
         margin: 10em 0em;
+        background-color: #efefef;
     }
     
     .planing_content {
@@ -340,7 +359,7 @@
     }
     
     .gallery {
-        background-color: #f2f2f2;
+        background-color: #efefef;
         padding: 136px 21px 20px 21px;
     }
     
@@ -349,7 +368,7 @@
         text-align: center;
         width: fit-content;
         line-height: 70px;
-        border-bottom: 9px dashed #f1c40f;
+        border-bottom: 5px dashed #f1c40f;
         margin: 0 auto;
     }
     
@@ -367,7 +386,7 @@
         top: -30px;
         width: fit-content;
         line-height: 70px;
-        border-bottom: 9px dashed #f1c40f;
+        border-bottom: 5px dashed #f1c40f;
     }
     
     .testimonial {
@@ -378,7 +397,8 @@
         font-size: 32px;
         margin-left: 2em;
         width: fit-content;
-        border-bottom: 9px dashed #f1c40f;
+        line-height: 54px;
+        /* margin-top: -10px; */
     }
     
     .testimonial img {
@@ -564,6 +584,8 @@
         width: 45%;
         line-height: 50px;
         padding: 20px 74px;
+        border: 1px solid #efefef;
+        border-radius: 4px;
     }
     
     .text {
