@@ -146,6 +146,11 @@
         padding: 15px 40px;
     }
     
+    .card {
+        width: 90% !important;
+        height: auto;
+    }
+    
     a {
         color: #f1c40f !important;
     }
@@ -245,8 +250,6 @@
     }
     
     .card {
-        height: 35em;
-        width: 19em !important;
         box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
     }
     
