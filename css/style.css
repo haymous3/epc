@@ -170,7 +170,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 2em;
         background-color: #efefef;
     }
     
@@ -343,6 +342,10 @@
         background-color: #efefef;
     }
     
+    .my_post1 {
+        margin-top: -80px;
+    }
+    
     .planing_content {
         padding: 0px 24px;
         line-height: 32px;
@@ -438,6 +441,7 @@
     .services1 {
         z-index: 2;
         margin-top: -21.8em;
+        height: 27em;
     }
     
     .faq {
@@ -542,7 +546,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: 40px;
+        /* margin-top: 40px; */
         line-height: 34px;
         color: #fff;
         padding: 51px 30px;

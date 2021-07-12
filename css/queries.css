@@ -100,6 +100,9 @@
         .iimage {
             height: 15.2em;
         }
+        .services1 {
+            height: 27em;
+        }
         .services h2 {
             text-align: center;
             margin: 0 auto;
@@ -141,7 +144,8 @@
             margin-top: 0px;
         }
         .gallery_cont {
-            width: 278px;
+            margin: 0 auto;
+            box-shadow: none;
         }
         .training {
             height: 86em;
@@ -265,6 +269,7 @@
         }
         .registration {
             flex-direction: column;
+            padding: 100px 0px 0px;
         }
         .registration_image {
             display: none;
@@ -272,6 +277,7 @@
         .registration_form {
             width: 100%;
             padding: 0px 0px;
+            height: 47em;
             text-align: center;
         }
         select {
