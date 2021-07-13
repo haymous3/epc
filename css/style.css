@@ -17,7 +17,7 @@
     }
     
     .cont_cont {
-        font-size: 28px;
+        font-size: 19px;
     }
     
     body {
@@ -147,8 +147,12 @@
     }
     
     .card {
-        width: 90% !important;
+        width: 30% !important;
         height: auto;
+    }
+    
+    .payment_2 {
+        margin-top: -100px !important;
     }
     
     a {
@@ -322,12 +326,28 @@
         padding: 30px 40px;
     }
     
+    .plans_change {
+        align-items: center;
+        box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+        width: 39%;
+        background-color: #011e40;
+        height: fit-content;
+    }
+    
+    .payment_plan1 {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        padding: 30px 40px;
+    }
+    
     .plan_one {
         display: flex;
         align-items: center;
         box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
         width: 48%;
         height: 16em;
+        background-color: #011e40;
     }
     
     .planing_image {
@@ -350,8 +370,14 @@
     }
     
     .planing_content {
-        padding: 0px 24px;
-        line-height: 32px;
+        padding: 0px 13px;
+        line-height: 23px;
+        width: 50%;
+    }
+    
+    .planing_content p {
+        font-size: 15px;
+        line-height: 20px;
     }
     
     .gallery_images {
@@ -733,8 +759,12 @@
         background-color: #011e40;
         padding: 18px 24px;
         line-height: 30px;
-        height: 16em;
-        margin-top: 3px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .heading {
+        color: #f1c40f;
     }
     
     .planing_content_two h2 {
