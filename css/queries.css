@@ -35,6 +35,10 @@
         position: relative;
         top: 40px;
     }
+    .mycarousel h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
     .cont_cont {
         font-size: 19px;
     }
@@ -115,7 +119,7 @@
     .mycarousel {
         font-size: 5px;
         top: 2em;
-        line-height: 10px;
+        /* line-height: 10px; */
     }
     .mytraining {
         height: 250em !important;
@@ -408,15 +412,26 @@
         width: 100%;
         text-align: center;
     }
-    .mycarousel h1 {
+    /* .mycarousel h1 {
         font-size: 20px;
         font-weight: bold;
-    }
+    } */
     .mycarousel p {
         font-size: 9px;
         line-height: 16px;
-        color: #f1c40f;
-        font-weight: bolder;
+        font-weight: 500;
+    }
+    .process h2 {
+        margin-left: 0px;
+    }
+    .visa {
+        padding: 17px;
+        line-height: 26px;
+        font-size: 15px;
+    }
+    .process {
+        height: fit-content;
+        padding: 40px 70px 20px;
     }
     .ielts_blog {
         flex-direction: column;
@@ -447,4 +462,11 @@
     .blog_blogs_image {
         width: 100%;
     }
+}
+
+.blog_blogs_image {
+    width: 100%;
+}
+
+
 }
