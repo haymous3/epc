@@ -387,6 +387,10 @@ h2 {
     background-color: #011e40;
 }
 
+.mytitle {
+    width: 10em;
+}
+
 .planing_image {
     width: 60%;
 }
